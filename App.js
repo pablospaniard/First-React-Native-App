@@ -1,7 +1,7 @@
 import React from 'react'
-import {StyleSheet, Text, View, TextInput, Button} from 'react-native'
+import {StyleSheet, View} from 'react-native'
 
-import ListItem from './src/components/ListItem/ListItem'
+import {ListItem, InputComponent, ListComponent} from './src/components'
 
 export default class App extends React.Component {
   state = {
@@ -21,31 +21,38 @@ export default class App extends React.Component {
     }
     this.setState(prevState => {
       return {
-        places: prevState.places.concat(prevState.placeName)
+        places: prevState.places.concat(prevState.placeName),
+        placeName: ''
+      }
+    })
+  }
+
+  onItemPressed = index => {
+    this.setState(prevState => {
+      return {
+        places: prevState.places.filter((place, i) => {
+          return i !== index
+        })
       }
     })
   }
 
   render() {
     const placesOutput = this.state.places.map((place, i) => (
-      <ListItem key={i} placeName={place} />
+      <ListItem
+        key={i}
+        placeName={place}
+        onItemPressed={() => this.onItemPressed(i)}
+      />
     ))
     return (
       <View style={styles.container}>
-        <View style={styles.inputContainer}>
-          <TextInput
-            style={styles.input}
-            placeholder="An Awesome Place"
-            value={this.state.placeName}
-            onChangeText={this.placeNameChangeHandler}
-          />
-          <Button
-            title="Add"
-            style={styles.inputButton}
-            onPress={this.placeSubmitHandler}
-          />
-        </View>
-        <View style={styles.listContainer}>{placesOutput}</View>
+        <InputComponent
+          placeName={this.state.placeName}
+          onPlaceNameHandler={this.placeNameChangeHandler}
+          onPlaceSubmitHandler={this.placeSubmitHandler}
+        />
+        <ListComponent placesOutput={placesOutput} />
       </View>
     )
   }
@@ -58,20 +65,5 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'flex-start'
-  },
-  inputContainer: {
-    width: '100%',
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center'
-  },
-  input: {
-    width: '70%'
-  },
-  inputButton: {
-    width: '30%'
-  },
-  listContainer: {
-    width: '100%'
   }
 })
