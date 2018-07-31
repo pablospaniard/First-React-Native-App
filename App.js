@@ -1,7 +1,7 @@
 import React from 'react'
 import {StyleSheet, View} from 'react-native'
 
-import {ListItem, InputComponent, ListComponent} from './src/components'
+import {InputComponent, ListComponent} from './src/components'
 
 export default class App extends React.Component {
   state = {
@@ -21,30 +21,26 @@ export default class App extends React.Component {
     }
     this.setState(prevState => {
       return {
-        places: prevState.places.concat(prevState.placeName),
+        places: prevState.places.concat({
+          key: Math.random(),
+          value: prevState.placeName
+        }),
         placeName: ''
       }
     })
   }
 
-  onItemPressed = index => {
+  onItemDeleted = key => {
     this.setState(prevState => {
       return {
-        places: prevState.places.filter((place, i) => {
-          return i !== index
+        places: prevState.places.filter(place => {
+          return place.key !== key
         })
       }
     })
   }
 
   render() {
-    const placesOutput = this.state.places.map((place, i) => (
-      <ListItem
-        key={i}
-        placeName={place}
-        onItemPressed={() => this.onItemPressed(i)}
-      />
-    ))
     return (
       <View style={styles.container}>
         <InputComponent
@@ -52,7 +48,10 @@ export default class App extends React.Component {
           onPlaceNameHandler={this.placeNameChangeHandler}
           onPlaceSubmitHandler={this.placeSubmitHandler}
         />
-        <ListComponent placesOutput={placesOutput} />
+        <ListComponent
+          places={this.state.places}
+          onItemDeleted={this.onItemDeleted}
+        />
       </View>
     )
   }

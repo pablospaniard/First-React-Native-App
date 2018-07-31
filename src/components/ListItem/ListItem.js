@@ -8,7 +8,7 @@ import {
 } from 'react-native'
 
 const listItem = props => (
-  <TouchableOpacity onPress={props.onItemPressed}>
+  <TouchableOpacity onPress={props.onItemDeleted}>
     <View style={styles.listItem}>
       <Text>{props.placeName}</Text>
     </View>

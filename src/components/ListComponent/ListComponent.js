@@ -1,9 +1,23 @@
 import React from 'react'
-import {View, StyleSheet, ScrollView} from 'react-native'
+import {StyleSheet, FlatList} from 'react-native'
 
-const listComponent = props => (
-  <ScrollView style={styles.listContainer}>{props.placesOutput}</ScrollView>
-)
+import {ListItem} from '../'
+
+const listComponent = props => {
+  const {places} = props
+  return (
+    <FlatList
+      style={styles.listContainer}
+      data={places}
+      renderItem={info => (
+        <ListItem
+          placeName={info.item.value}
+          onItemDeleted={() => props.onItemDeleted(info.item.key)}
+        />
+      )}
+    />
+  )
+}
 
 const styles = StyleSheet.create({
   listContainer: {
