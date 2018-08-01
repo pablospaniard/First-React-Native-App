@@ -1,88 +1,44 @@
 import React from 'react'
 import {StyleSheet, View} from 'react-native'
+import {connect} from 'react-redux'
 
 import {InputComponent, ListComponent, DetailComponent} from './src/components'
-import placeImage from './src/assets/spain.jpg'
+import {
+  addPlace,
+  deletePlace,
+  selectPlace,
+  deselectPlace
+} from './src/store/actions/places'
 
-export default class App extends React.Component {
-  state = {
-    placeName: '',
-    places: [],
-    selectedPlace: null
+class App extends React.Component {
+  placeAddedHandler = placeName => {
+    this.props.onAddPlace(placeName)
   }
 
-  placeNameChangeHandler = value => {
-    this.setState({
-      placeName: value
-    })
-  }
-
-  placeSubmitHandler = () => {
-    if (this.state.placeName.trim() === '') {
-      return
-    }
-    this.setState(prevState => {
-      return {
-        places: prevState.places.concat({
-          key: String(Math.random()),
-          name: prevState.placeName,
-          image: placeImage
-        }),
-        placeName: ''
-      }
-    })
-  }
-
-  onItemDeletedHandler = () => {
-    this.setState(prevState => {
-      return {
-        places: prevState.places.filter(place => {
-          return place.key !== prevState.selectedPlace.key
-        }),
-        selectedPlace: null
-      }
-    })
+  onPlaceDeletedHandler = () => {
+    this.props.onDeletePlace()
   }
 
   onModalClosedHandler = () => {
-    this.setState({
-      selectedPlace: null
-    })
+    this.props.onDeselectPlace()
   }
 
-  onItemSelected = key => {
-    this.setState(prevState => {
-      return {
-        selectedPlace: prevState.places.find(place => {
-          return place.key === key
-        })
-      }
-    })
-    // this.setState(prevState => {
-    //   return {
-    //     places: prevState.places.filter(place => {
-    //       return place.key !== key
-    //     })
-    //   }
-    // })
+  onPlaceSelected = key => {
+    this.props.onSelectPlace(key)
   }
 
   render() {
     return (
       <View style={styles.container}>
         <DetailComponent
-          selectedPlace={this.state.selectedPlace}
+          selectedPlace={this.props.selectedPlace}
           onModalClosed={this.onModalClosedHandler}
-          onItemDeleted={this.onItemDeletedHandler}
+          onItemDeleted={this.onPlaceDeletedHandler}
         />
-        <InputComponent
-          placeName={this.state.placeName}
-          onPlaceNameHandler={this.placeNameChangeHandler}
-          onPlaceSubmitHandler={this.placeSubmitHandler}
-        />
+        <InputComponent onPlaceAdded={this.placeAddedHandler} />
         <ListComponent
-          places={this.state.places}
-          onItemSelected={this.onItemSelected}
+          places={this.props.places}
+          onItemSelected={this.onPlaceSelected}
         />
       </View>
     )
@@ -98,3 +54,24 @@ const styles = StyleSheet.create({
     justifyContent: 'flex-start'
   }
 })
+
+const mapStateToProps = state => {
+  return {
+    places: state.places.places,
+    selectedPlace: state.places.selectedPlace
+  }
+}
+
+const mapDispatchToProps = dispatch => {
+  return {
+    onAddPlace: name => dispatch(addPlace(name)),
+    onDeletePlace: () => dispatch(deletePlace()),
+    onSelectPlace: key => dispatch(selectPlace(key)),
+    onDeselectPlace: () => dispatch(deselectPlace())
+  }
+}
+
+export default connect(
+  mapStateToProps,
+  mapDispatchToProps
+)(App)

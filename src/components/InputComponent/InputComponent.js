@@ -1,23 +1,41 @@
 import React from 'react'
 import {View, TextInput, Button, StyleSheet} from 'react-native'
 
-const inputComponent = props => {
-  const {placeName, onPlaceNameHandler, onPlaceSubmitHandler} = props
-  return (
-    <View style={styles.inputContainer}>
-      <TextInput
-        style={styles.input}
-        placeholder="An Awesome Place"
-        value={placeName}
-        onChangeText={onPlaceNameHandler}
-      />
-      <Button
-        title="Add"
-        style={styles.inputButton}
-        onPress={onPlaceSubmitHandler}
-      />
-    </View>
-  )
+class InputComponent extends React.Component {
+  state = {
+    placeName: ''
+  }
+
+  placeNameChangeHandler = value => {
+    this.setState({
+      placeName: value
+    })
+  }
+
+  placeSubmitHandler = () => {
+    if (this.state.placeName.trim() === '') {
+      return
+    }
+    this.props.onPlaceAdded(this.state.placeName)
+  }
+
+  render() {
+    return (
+      <View style={styles.inputContainer}>
+        <TextInput
+          style={styles.input}
+          placeholder="An Awesome Place"
+          value={this.state.placeName}
+          onChangeText={this.placeNameChangeHandler}
+        />
+        <Button
+          title="Add"
+          style={styles.inputButton}
+          onPress={this.placeSubmitHandler}
+        />
+      </View>
+    )
+  }
 }
 
 const styles = StyleSheet.create({
@@ -35,4 +53,4 @@ const styles = StyleSheet.create({
   }
 })
 
-export default inputComponent
+export default InputComponent
