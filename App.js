@@ -1,12 +1,14 @@
 import React from 'react'
 import {StyleSheet, View} from 'react-native'
 
-import {InputComponent, ListComponent} from './src/components'
+import {InputComponent, ListComponent, DetailComponent} from './src/components'
+import placeImage from './src/assets/spain.jpg'
 
 export default class App extends React.Component {
   state = {
     placeName: '',
-    places: []
+    places: [],
+    selectedPlace: null
   }
 
   placeNameChangeHandler = value => {
@@ -22,27 +24,57 @@ export default class App extends React.Component {
     this.setState(prevState => {
       return {
         places: prevState.places.concat({
-          key: Math.random(),
-          value: prevState.placeName
+          key: String(Math.random()),
+          name: prevState.placeName,
+          image: placeImage
         }),
         placeName: ''
       }
     })
   }
 
-  onItemDeleted = key => {
+  onItemDeletedHandler = () => {
     this.setState(prevState => {
       return {
         places: prevState.places.filter(place => {
-          return place.key !== key
+          return place.key !== prevState.selectedPlace.key
+        }),
+        selectedPlace: null
+      }
+    })
+  }
+
+  onModalClosedHandler = () => {
+    this.setState({
+      selectedPlace: null
+    })
+  }
+
+  onItemSelected = key => {
+    this.setState(prevState => {
+      return {
+        selectedPlace: prevState.places.find(place => {
+          return place.key === key
         })
       }
     })
+    // this.setState(prevState => {
+    //   return {
+    //     places: prevState.places.filter(place => {
+    //       return place.key !== key
+    //     })
+    //   }
+    // })
   }
 
   render() {
     return (
       <View style={styles.container}>
+        <DetailComponent
+          selectedPlace={this.state.selectedPlace}
+          onModalClosed={this.onModalClosedHandler}
+          onItemDeleted={this.onItemDeletedHandler}
+        />
         <InputComponent
           placeName={this.state.placeName}
           onPlaceNameHandler={this.placeNameChangeHandler}
@@ -50,7 +82,7 @@ export default class App extends React.Component {
         />
         <ListComponent
           places={this.state.places}
-          onItemDeleted={this.onItemDeleted}
+          onItemSelected={this.onItemSelected}
         />
       </View>
     )

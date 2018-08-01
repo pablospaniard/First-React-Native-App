@@ -11,8 +11,9 @@ const listComponent = props => {
       data={places}
       renderItem={info => (
         <ListItem
-          placeName={info.item.value}
-          onItemDeleted={() => props.onItemDeleted(info.item.key)}
+          placeName={info.item.name}
+          placeImage={info.item.image}
+          onItemDeleted={() => props.onItemSelected(info.item.key)}
         />
       )}
     />
