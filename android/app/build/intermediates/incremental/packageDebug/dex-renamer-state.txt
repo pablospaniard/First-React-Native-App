@@ -1,4 +1,4 @@
-#Thu Jul 26 14:18:35 CEST 2018
+#Fri Aug 03 12:39:08 CEST 2018
 base.0=/Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
 file.0=/Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/android/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

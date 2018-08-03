@@ -6,76 +6,71 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		x459K/Qi/Rv/OhVPaEAH7HUkT6M=
+		nTrttUCairNOFPZNVkXeTCcEkbY=
 		</data>
-		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
+		<key>Entypo.ttf</key>
 		<data>
-		8CN5cCzwKl0+7ieNPMN/SawZQA8=
+		R4cKZ91Qhxdl95nKqX2ochnuR8U=
 		</data>
-		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
+		<key>EvilIcons.ttf</key>
 		<data>
-		Cwsl4MoHt6dTvyYXRy5C2x7Kd88=
+		kdN36jz0dJCyVsLtCBcEp9q9rgw=
 		</data>
-		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
+		<key>Feather.ttf</key>
 		<data>
-		UU+vWjYvpE8lKAxV1lE2tUbIZA0=
+		N8tVG0ETiQxSP0aeapsrKcTEm+Q=
 		</data>
-		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
+		<key>FontAwesome.ttf</key>
 		<data>
-		znuKt4UiTOJWwzrlgwaYX94o/a4=
+		E7HqtlqYPHpzvHmXxHnWaUP3xss=
 		</data>
-		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<key>FontAwesome5_Brands.ttf</key>
 		<data>
-		uPxPInP5h9+ERgCm8NCXpuuMEmg=
+		GeMCdg454lpfjZDWzQFk72zXT4w=
 		</data>
-		<key>Frameworks/XCTest.framework/XCTest</key>
+		<key>FontAwesome5_Regular.ttf</key>
 		<data>
-		aHoR6mqqp0XWLqiw49+MRuFNQLk=
+		wUAIWDOjir7Gt9+Z1Mysk+smYDE=
 		</data>
-		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<key>FontAwesome5_Solid.ttf</key>
 		<data>
-		2JoYDV6DTsckEmF+l3Ruo1S1Iqk=
+		xEWGSpZGlI4Nf/RJMK1zLuYUJ9g=
 		</data>
-		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TuBj57ZP6zBqcL9HttO2Rucaw9E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/XCTest.framework/version.plist</key>
+		<key>Foundation.ttf</key>
 		<data>
-		DmGu9k7yBOLSfwtyNbn3zYir630=
+		SyvObHkkk6SlcWtv7C2+/olJLD8=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ajkBperOIBgnCqyL/x/uNXYyf4o=
+		2m2XWJ3tKX9MTYKpqhf4O53vVD0=
+		</data>
+		<key>Ionicons.ttf</key>
+		<data>
+		mRu3+slwnNWNo3kBdw79RwPFQu0=
+		</data>
+		<key>MaterialCommunityIcons.ttf</key>
+		<data>
+		S1x3dOYog1mECtkRU/Ko2+92DD8=
+		</data>
+		<key>MaterialIcons.ttf</key>
+		<data>
+		/AXeMSNOAJD33cKM4bI69AJssdo=
+		</data>
+		<key>Octicons.ttf</key>
+		<data>
+		o/QP7s8JqAqYbxLVfGRtK0Wa+so=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
-		<key>PlugIns/rncourseTests.xctest.dSYM/Contents/Info.plist</key>
+		<key>SimpleLineIcons.ttf</key>
 		<data>
-		BUIEQ4e+sHfkG68zI04CBzcg8Ko=
+		n/uBpaEREuKS8swyPphIa61ZdZk=
 		</data>
-		<key>PlugIns/rncourseTests.xctest.dSYM/Contents/Resources/DWARF/rncourseTests</key>
+		<key>Zocial.ttf</key>
 		<data>
-		gzAN/CE6lSSrhMWnfLUmqPoFA+k=
-		</data>
-		<key>PlugIns/rncourseTests.xctest/Info.plist</key>
-		<data>
-		rvo+dcps885/DO8D9txHZWJ/YUM=
-		</data>
-		<key>PlugIns/rncourseTests.xctest/_CodeSignature/CodeResources</key>
-		<data>
-		R9kMPRcx6BnP/9P7Q/i/DzXfFpQ=
-		</data>
-		<key>PlugIns/rncourseTests.xctest/rncourseTests</key>
-		<data>
-		KhKiPRzJUY+IMqfNUWBMBq78Cc4=
+		C9pZx7zT05J94EfgkYdaRCi/0as=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -84,107 +79,105 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e9qE0Q6U+ERMHYxIWZNyugpdHN5f3R/O7wbMMZqwup8=
+			6CfxnBDYPs75QDVfe2t6U2GSPV1ggApcGPnxl27kRYQ=
 			</data>
 		</dict>
-		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
+		<key>Entypo.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/R1Uy1RZ7ljX2V8ZHMhD4g8ieWHns9sj34YDK2McvfY=
+			3QhJoVkfiNp5N7I/kiQYpc7FTgdeCePMyo/rYgFvqoI=
 			</data>
 		</dict>
-		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
+		<key>EvilIcons.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IvG0kD54lYvEZzfjVmXtrtBdydTUy1uFZkZXUddfTzY=
+			pcrrTTlcXjLx1aMKyzgq68Zk8brf0UkxmQfyIV5OPiY=
 			</data>
 		</dict>
-		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
+		<key>Feather.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ja3vToXIdN/BmsoAh4U4btDVl5lKbzndKf99CyxV6K4=
+			vJZj1K7YcJfMyjc62U/QjeJKxKNRAOPfO30oFCyQCUo=
 			</data>
 		</dict>
-		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
+		<key>FontAwesome.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			napzzKlhgK6Qoqz8QO+9TkyuIsW5V+s6GmClALe2lT4=
+			qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=
 			</data>
 		</dict>
-		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<key>FontAwesome5_Brands.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N77/gSJpnPT4ryPaR4IJ55aYyiiMCKjlq79qrCmGxU8=
+			NlFjtwbIzvX8bGmgoN38QLXHJtWpVfwqLOxQ3qzXeSg=
 			</data>
 		</dict>
-		<key>Frameworks/XCTest.framework/XCTest</key>
+		<key>FontAwesome5_Regular.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			unqlGEn5cq6B36PWWq/mAoeeub7L9yZ3vWK7mP9EscQ=
+			rlr07d3JsGDC71CcsJ6+GkaD5oljOBFDRoDfMZ/qUQc=
 			</data>
 		</dict>
-		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<key>FontAwesome5_Solid.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OXS9XX1oATlfFoPHZbc7OGt7HUXfXzNrCz28TkkBo/g=
+			UvbXegBXJ/S5IFERnnbplWt+5xvywiOFgZr7GobSiqQ=
 			</data>
 		</dict>
-		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<key>Foundation.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			89RGkjZaKuewYnjpzwhIswhqfrU8+pcEXqM/DHVrUmo=
+			fh3QPdTOkLZYBSVUzXRZ3xZxZxc4mlUvpMbVal+JM+Y=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
-		<key>Frameworks/XCTest.framework/version.plist</key>
+		<key>Ionicons.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2hnwNPgdaewT28DbTqe0Gpaccdc2akBF8IjnGtISc58=
+			INFzvLYFHQlzvgymqi+08npbKQ2AEGyyxWfI/cdyxxE=
 			</data>
 		</dict>
-		<key>PlugIns/rncourseTests.xctest.dSYM/Contents/Info.plist</key>
+		<key>MaterialCommunityIcons.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q/47SiBlCqrQEjLMhF1QcWfgj+BoW5tJeCrHeUlEUPE=
+			9TfAzAnJLqAXEVh/QzQ9l4FAl3HGtS4KVqVdOpLoZvE=
 			</data>
 		</dict>
-		<key>PlugIns/rncourseTests.xctest.dSYM/Contents/Resources/DWARF/rncourseTests</key>
+		<key>MaterialIcons.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KsRpSftuLdhsYKi0t++AYX403uhMc34qZZmQXaU+UoQ=
+			t/Sjq1YgSPKN0fppFgG8QzY6YdD4dtFtgxbFLk8y1pY=
 			</data>
 		</dict>
-		<key>PlugIns/rncourseTests.xctest/Info.plist</key>
+		<key>Octicons.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			b8h7K9RPI9dLBDczNnCmyx8sJqTOoSy7iopSagPHtzc=
+			8KI41G1nSeYBwS8g+PwDIB8Ze5/jR75MLJRP/FxLYDU=
 			</data>
 		</dict>
-		<key>PlugIns/rncourseTests.xctest/_CodeSignature/CodeResources</key>
+		<key>SimpleLineIcons.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0VQJ1qA7+4VjqKATpTzWp4BIt0ElMopwU8TXBxZEFjY=
+			P1Ad2wXHCCm7tRz+nKn/9X854GBFfCV7PM8l33Z/CHA=
 			</data>
 		</dict>
-		<key>PlugIns/rncourseTests.xctest/rncourseTests</key>
+		<key>Zocial.ttf</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cU1uzr5F7LDhZev3k9ztzeOrwVtu1x4VssMQQ3HuBTI=
+			17EKHr4YMOWi8I9JA7moDiwZEsDdL3O5P88r+DIhZgI=
 			</data>
 		</dict>
 	</dict>
