@@ -40,5 +40,4 @@ dependencies: \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTPropsAnimatedNode.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/NativeAnimation/Drivers/RCTSpringAnimation.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTStyleAnimatedNode.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTTransformAnimatedNode.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTTrackingAnimatedNode.h
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTTransformAnimatedNode.h

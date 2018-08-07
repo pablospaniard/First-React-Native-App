@@ -1,6 +1,7 @@
 dependencies: \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/Views/RCTWrapperViewController.m \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/Views/RCTWrapperViewController.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/Views/RCTViewControllerProtocol.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/Base/RCTEventDispatcher.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/Base/RCTBridge.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/Base/RCTBridgeDelegate.h \

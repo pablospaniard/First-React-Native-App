@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Text/TextInput/RCTTextSelection.m \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Text/TextInput/RCTTextSelection.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Text/RCTTextSelection.m \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Text/RCTTextSelection.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \

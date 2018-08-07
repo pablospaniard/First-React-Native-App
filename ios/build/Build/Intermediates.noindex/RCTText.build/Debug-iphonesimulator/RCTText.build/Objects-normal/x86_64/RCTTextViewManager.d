@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Text/Text/RCTTextViewManager.m \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Text/Text/RCTTextViewManager.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Text/RCTTextViewManager.m \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Text/RCTTextViewManager.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
@@ -23,16 +23,13 @@ dependencies: \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextViewManager.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAccessibilityManager.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFont.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView+Layout.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLayout.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManager.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManagerUtils.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManagerObserverCoordinator.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Text/Text/RCTTextShadowView.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextShadowView.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Text/RCTTextAttributes.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Text/Text/RCTTextView.h
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Text/RCTConvert+Text.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Text/RCTShadowTextView.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Text/RCTTextView.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTView.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Text/RCTTextInput.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Text/RCTBackedTextInputViewProtocol.h

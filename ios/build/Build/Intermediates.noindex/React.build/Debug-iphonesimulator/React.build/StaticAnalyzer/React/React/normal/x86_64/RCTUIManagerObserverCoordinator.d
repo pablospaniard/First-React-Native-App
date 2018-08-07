@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/Modules/RCTUIManagerObserverCoordinator.mm \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/Modules/RCTUIManagerObserverCoordinator.m \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/Modules/RCTUIManagerObserverCoordinator.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/Views/RCTViewManager.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/Base/RCTBridgeModule.h \

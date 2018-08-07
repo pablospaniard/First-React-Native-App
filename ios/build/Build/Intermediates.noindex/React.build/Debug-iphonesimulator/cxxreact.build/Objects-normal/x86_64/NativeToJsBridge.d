@@ -382,7 +382,6 @@ dependencies: \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/Unicode.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/noncopyable.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/privatedata/PrivateDataBase.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/json.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCHelpers.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Memory.h \
@@ -391,6 +390,5 @@ dependencies: \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/ReactCommon/cxxreact/JSBigString.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/ReactCommon/cxxreact/SystraceSection.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/ReactCommon/cxxreact/MethodCall.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/ReactCommon/cxxreact/MessageQueueThread.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/ReactCommon/cxxreact/RAMBundleRegistry.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../ReactCommon/cxxreact/JSModulesUnbundle.h
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/ReactCommon/cxxreact/JSModulesUnbundle.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/ReactCommon/cxxreact/MessageQueueThread.h

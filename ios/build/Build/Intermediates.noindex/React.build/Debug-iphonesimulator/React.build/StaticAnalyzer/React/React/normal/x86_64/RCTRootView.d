@@ -32,5 +32,4 @@ dependencies: \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/Views/UIView+React.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/Modules/RCTUIManagerUtils.h
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/Views/UIView+React.h

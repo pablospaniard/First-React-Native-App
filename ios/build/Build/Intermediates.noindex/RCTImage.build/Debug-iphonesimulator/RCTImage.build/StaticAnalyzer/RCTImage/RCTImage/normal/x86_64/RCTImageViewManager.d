@@ -29,6 +29,5 @@ dependencies: \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTURLRequestDelegate.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Image/RCTImageShadowView.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLayout.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/Libraries/Image/RCTImageView.h

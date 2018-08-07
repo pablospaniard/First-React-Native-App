@@ -1,0 +1,4 @@
+#Mon Aug 06 13:32:47 CEST 2018
+base.0=/Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

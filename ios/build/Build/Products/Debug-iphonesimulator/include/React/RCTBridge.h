@@ -1,8 +1,10 @@
 /**
  * Copyright (c) 2015-present, Facebook, Inc.
+ * All rights reserved.
  *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
  */
 
 #import <UIKit/UIKit.h>
@@ -19,15 +21,9 @@
 @class RCTPerformanceLogger;
 
 /**
- * This notification fires when the bridge initializes.
+ * This notification fires when the bridge starts loading the JS bundle.
  */
 RCT_EXTERN NSString *const RCTJavaScriptWillStartLoadingNotification;
-
-
-/**
- * This notification fires when the bridge starts executing the JS bundle.
- */
-RCT_EXTERN NSString *const RCTJavaScriptWillStartExecutingNotification;
 
 /**
  * This notification fires when the bridge has finished loading the JS bundle.
@@ -36,7 +32,7 @@ RCT_EXTERN NSString *const RCTJavaScriptDidLoadNotification;
 
 /**
  * This notification fires when the bridge failed to load the JS bundle. The
- * `error` key can be used to determine the error that occurred.
+ * `error` key can be used to determine the error that occured.
  */
 RCT_EXTERN NSString *const RCTJavaScriptDidFailToLoadNotification;
 
@@ -127,11 +123,20 @@ RCT_EXTERN NSString *RCTBridgeModuleNameForClass(Class bridgeModuleClass);
 - (void)enqueueJSCall:(NSString *)module method:(NSString *)method args:(NSArray *)args completion:(dispatch_block_t)completion;
 
 /**
- * This method registers the file path of an additional JS segment by its ID.
+ * This method is used to call functions in the JavaScript application context
+ * synchronously.  This is intended for use by applications which do their own
+ * thread management and are careful to manage multi-threaded access to the JSVM.
+ * See also -[RCTBridgeDelgate shouldBridgeLoadJavaScriptSynchronously], which
+ * may be needed to ensure that any requires JS code is loaded before this method
+ * is called.  If the underlying executor is not JSC, this will return nil.  Safe
+ * to call from any thread.
  *
  * @experimental
  */
-- (void)registerSegmentWithId:(NSUInteger)segmentId path:(NSString *)path;
+- (JSValue *)callFunctionOnModule:(NSString *)module
+                           method:(NSString *)method
+                        arguments:(NSArray *)arguments
+                            error:(NSError **)error;
 
 /**
  * Retrieve a bridge module instance by name or class. Note that modules are
@@ -157,9 +162,15 @@ RCT_EXTERN NSString *RCTBridgeModuleNameForClass(Class bridgeModuleClass);
 - (BOOL)moduleIsInitialized:(Class)moduleClass;
 
 /**
- * Retrieve an extra module that gets bound to the JS context, if any.
+ * Call when your delegate's `whitelistedModulesForBridge:` value has changed.
+ * In response to this, the bridge will immediately instantiate any (whitelisted)
+ * native modules that require main thread initialization. Modules that do not require
+ * main thread initialization will still be created lazily.
+ *
+ * This method must be called on the main thread, as any pending native modules
+ * will be initialized immediately.
  */
-- (id)jsBoundExtraModuleForClass:(Class)moduleClass;
+- (void)whitelistedModulesDidChange;
 
 /**
  * All registered bridge module classes.
@@ -213,7 +224,7 @@ RCT_EXTERN NSString *RCTBridgeModuleNameForClass(Class bridgeModuleClass);
 - (void)requestReload __deprecated_msg("Call reload instead");
 
 /**
- * Says whether bridge has started receiving calls from javascript.
+ * Says whether bridge has started recieving calls from javascript.
  */
 - (BOOL)isBatchActive;
 

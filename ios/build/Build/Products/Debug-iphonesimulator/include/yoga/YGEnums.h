@@ -1,8 +1,10 @@
 /**
  * Copyright (c) 2014-present, Facebook, Inc.
+ * All rights reserved.
  *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
+ * This source code is licensed under the BSD-style license found in the
+ * LICENSE file in the root directory of this source tree. An additional grant
+ * of patent rights can be found in the PATENTS file in the same directory.
  */
 
 #pragma once
@@ -75,14 +77,13 @@ typedef YG_ENUM_BEGIN(YGFlexDirection) {
 } YG_ENUM_END(YGFlexDirection);
 WIN_EXPORT const char *YGFlexDirectionToString(const YGFlexDirection value);
 
-#define YGJustifyCount 6
-typedef YG_ENUM_BEGIN(YGJustify){
-    YGJustifyFlexStart,
-    YGJustifyCenter,
-    YGJustifyFlexEnd,
-    YGJustifySpaceBetween,
-    YGJustifySpaceAround,
-    YGJustifySpaceEvenly,
+#define YGJustifyCount 5
+typedef YG_ENUM_BEGIN(YGJustify) {
+  YGJustifyFlexStart,
+  YGJustifyCenter,
+  YGJustifyFlexEnd,
+  YGJustifySpaceBetween,
+  YGJustifySpaceAround,
 } YG_ENUM_END(YGJustify);
 WIN_EXPORT const char *YGJustifyToString(const YGJustify value);
 

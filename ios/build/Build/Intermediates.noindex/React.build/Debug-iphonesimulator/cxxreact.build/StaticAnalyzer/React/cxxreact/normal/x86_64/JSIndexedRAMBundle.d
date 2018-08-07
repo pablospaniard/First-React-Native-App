@@ -1,20 +1,13 @@
 dependencies: \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/ReactCommon/cxxreact/JSIndexedRAMBundle.cpp \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/ReactCommon/cxxreact/JSIndexedRAMBundle.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../ReactCommon/cxxreact/JSBigString.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Exception.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Conv.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/boost_1_63_0/boost/implicit_cast.hpp \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/double-conversion/double-conversion.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/double-conversion/utils.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Demangle.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/FBString.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../ReactCommon/cxxreact/JSModulesUnbundle.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/noncopyable.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/ReactCommon/cxxreact/oss-compat-util.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Bits.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Portability.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/portability/Config.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/CPortability.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Hash.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/ApplyTuple.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Bits.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/portability/Builtins.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Assume.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/detail/BitsDetail.h \
@@ -225,6 +218,14 @@ dependencies: \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/boost_1_63_0/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/boost_1_63_0/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Likely.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Conv.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/boost_1_63_0/boost/implicit_cast.hpp \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/double-conversion/double-conversion.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/double-conversion/utils.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Demangle.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/FBString.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Hash.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/ApplyTuple.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/SpookyHashV1.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/SpookyHashV2.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Malloc.h \
@@ -355,6 +356,5 @@ dependencies: \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/detail/RangeCommon.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/detail/RangeSse42.h \
   /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/portability/Math.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../ReactCommon/cxxreact/JSModulesUnbundle.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/noncopyable.h \
-  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Memory.h
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/ReactCommon/cxxreact/JSBigString.h \
+  /Users/pavel/Dropbox/Code/Education/Academind/React-Native/rn-course/node_modules/react-native/React/../third-party/folly-2016.09.26.00/folly/Exception.h

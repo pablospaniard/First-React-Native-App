@@ -7,21 +7,9 @@ export const addPlace = placeName => {
   }
 }
 
-export const deletePlace = () => {
+export const deletePlace = key => {
   return {
-    type: constants.DELETE_PLACE
-  }
-}
-
-export const selectPlace = key => {
-  return {
-    type: constants.SELECT_PLACE,
-    key
-  }
-}
-
-export const deselectPlace = () => {
-  return {
-    type: constants.DESELECT_PLACE
+    type: constants.DELETE_PLACE,
+    placeKey: key
   }
 }
