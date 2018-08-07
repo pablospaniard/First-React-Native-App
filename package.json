@@ -20,10 +20,8 @@
     "start": "react-native start",
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "test": "react-scripts test --env=jsdom",
-    "test:ci": "CI=true react-scripts test --env=jsdom --runInBand",
-    "precommit": "lint-staged",
-    "prepush": "yarn test:ci"
+    "test": "jest",
+    "precommit": "lint-staged"
   },
   "jest": {
     "preset": "react-native"
