@@ -37,7 +37,7 @@
       "off"
     ],
     "arrow-parens": "off",
-    "react/prop-types": "warn",
+    "react/prop-types": "off",
     "quotes": "off",
     "object-curly-newline": "off",
     "no-confusing-arrow": "warn",
