@@ -7,6 +7,9 @@ import {HeaderText, MainText} from '../../components/UI'
 import {InputComponent, PickImage, PickLocation} from '../../components'
 
 class SharePlace extends Component {
+  static navigatorStyle = {
+    navBarButtonColor: 'orange'
+  }
   constructor(props) {
     super(props)
 

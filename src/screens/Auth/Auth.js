@@ -16,9 +16,8 @@ class Auth extends Component {
     this.state = {
       viewMode: Dimensions.get('window').height > 500 ? 'portrait' : 'landscape'
     }
-    Dimensions.addEventListener('change', dims => {
-      this.updateStyles(dims)
-    })
+
+    Dimensions.addEventListener('change', this.updateStyles)
   }
 
   componentWillUnmount = () => {
