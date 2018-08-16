@@ -5,6 +5,7 @@ import {connect} from 'react-redux'
 import * as actions from '../../store/actions'
 import {HeaderText, MainText} from '../../components/UI'
 import {InputComponent, PickImage, PickLocation} from '../../components'
+import validate from '../../utility/validation'
 
 class SharePlace extends Component {
   static navigatorStyle = {
@@ -14,7 +15,16 @@ class SharePlace extends Component {
     super(props)
 
     this.state = {
-      placeName: ''
+      controls: {
+        placeName: {
+          value: '',
+          valid: false,
+          touched: false,
+          validationRules: {
+            notEmpty: true
+          }
+        }
+      }
     }
 
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent)
@@ -29,17 +39,28 @@ class SharePlace extends Component {
   }
 
   placeNameChangedHandler = val => {
-    this.setState({
-      placeName: val
+    this.setState(prevState => {
+      return {
+        controls: {
+          ...prevState.controls,
+          placeName: {
+            ...prevState.controls.placeName,
+            value: val,
+            valid: validate(val, prevState.controls.placeName.validationRules),
+            touched: true
+          }
+        }
+      }
     })
   }
 
   placeAddedHandler = () => {
-    if (this.state.placeName.trim() !== '') {
-      this.props.onAddPlace(this.state.placeName)
+    if (this.state.controls.placeName.value.trim() !== '') {
+      this.props.onAddPlace(this.state.controls.placeName.value)
     }
   }
   render() {
+    const {controls} = this.state
     return (
       <ScrollView>
         <View style={styles.container}>
@@ -49,11 +70,15 @@ class SharePlace extends Component {
           <PickImage />
           <PickLocation />
           <InputComponent
-            placeName={this.state.placeName}
+            placeData={controls.placeName}
             onChangeText={this.placeNameChangedHandler}
           />
           <View style={styles.button}>
-            <Button title="Share the place!" onPress={this.placeAddedHandler} />
+            <Button
+              title="Share the place!"
+              onPress={this.placeAddedHandler}
+              disabled={!controls.placeName.valid}
+            />
           </View>
         </View>
       </ScrollView>
